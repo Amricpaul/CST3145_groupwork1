@@ -16,7 +16,14 @@
 </head>
 <body>
     <div id="app">
+        <div class="lesson-box">
+            <p>Subject: <span v-text="lesson.subject"></span></p>
+            <p>Location: <span v-text="lesson.location"></span></p>
+            <p>Price: <span v-text="lesson.price"></span> AED</p>
+            <p>Number of Space: <span v-text="lesson.space"></span></p>
 
+            <button v-on:click="addToCart" :disabled="spaceCount == 0">{{(spaceCount == 0) ? 'Out of space' : 'Add to Cart'}}</button>
+        </div>
     </div>
 
     <script>
