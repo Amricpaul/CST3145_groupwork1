@@ -6,7 +6,7 @@
 - Amric Paul (M00910238)
 - Jesuael Aquino (M00914269)
 - Taha Arshad (M00914695)
-- Umair Dadaa (M00740467)
+- Umair Dada (M00740467)
 - Huzaifa Mustafa (M00795555)
 
 ### Project Description
