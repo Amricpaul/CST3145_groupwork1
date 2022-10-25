@@ -39,8 +39,20 @@
                     space: 5,
                 },
                 cart:[]
+            },
+            methods:{
+                    addToCart: function(){
+                      this.lesson.space = this.lesson.space - 1;
+                      console.log(this.lesson.space);
+                    }
+            },
+            computed: {
+                 spaceCount: function(){
+
+                    return this.lesson.space > 0;
+                 }
             }
-        };)
+        })
     </script>
 </body>
 </html>
