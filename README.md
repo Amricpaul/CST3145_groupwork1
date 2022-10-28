@@ -1,9 +1,9 @@
 # Web Based Mobile App Development
 ## CST3145
-# Repository
+### Repository
 - https://github.com/Amricpaul/CST3145_groupwork1
 
-# GitHUB Pages Deployment
+### GitHUB Pages Deployment
 - https://amricpaul.github.io/CST3145_groupwork1/
 
 ### GROUP MEMBERS 
